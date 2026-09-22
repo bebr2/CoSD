@@ -1,0 +1,15 @@
+torch==2.7.1
+transformers==4.57.6
+accelerate==1.6.0
+datasets==3.5.0
+bitsandbytes
+flash-attn
+requests
+numpy
+pandas
+pyarrow
+scikit-learn
+
+# evaluation (a separate environment is convenient, since vLLM pins its own torch)
+vllm==0.10.0
+lm-eval==0.4.9
